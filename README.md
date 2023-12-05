@@ -244,4 +244,5 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
     route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.18.0.1
 
     ```
-  
+## Vidio Tutorial
+[![Video]([https://youtu.be/4yjJ4sE2GxE](https://youtu.be/zlpIDt5hTIg)https://youtu.be/zlpIDt5hTIg)]
