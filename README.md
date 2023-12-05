@@ -245,4 +245,5 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
 
     ```
 ## Vidio Tutorial
-[![Video]([https://youtu.be/4yjJ4sE2GxE](https://youtu.be/zlpIDt5hTIg)https://youtu.be/zlpIDt5hTIg)]
+[![Video](https://img.youtube.com/vi/zlpIDt5hTIg/maxresdefault.jpg)](https://youtu.be/zlpIDt5hTIg)
+
