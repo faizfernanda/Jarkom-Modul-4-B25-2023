@@ -26,31 +26,41 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
 ## Penggabungan Beberapa node 
 - Untuk kondisi awal Node
   ![Screenshot 2023-12-02 113303](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/744e503a-bf8e-4f95-a838-64efe47a7c54)
-  Dan Untuk rute nya
+- Dan Untuk rute nya
   ![rute](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/a911b527-27eb-4bc2-a6e7-b20ff68127f7)
 
 - Setelah di lakukan penggabungan melalui beberapa tahap maka gambar nya jadi sebagai berikut :
   ![gab2](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/192ad368-b10e-45e0-b482-623525ade474)
 - Sedangkan Untuk tabel penggabungan **CIDR** nya sebagai berikut :
    - I
+
      ![1](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/0b90f73d-620e-462e-a479-88199a20f216)
    - II
+
      ![2](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/4910f65f-da60-4c8f-99c2-acf0d4d311e7)
    - III
+
      ![3](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/792039b7-4d37-499e-a5d9-bc3cc3eb3b2d)
    - IV
+
      ![4](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/62dfcf70-8a8b-4b2f-b70b-352e9a6129ca)
    - V
+
      ![5](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/ea94af72-6097-47b4-9546-47a5a33a6d98)
    - VI
+
      ![6](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/c0a2063f-49ae-4275-83e4-002c9fb792ed)
    - VII
+
      ![7](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/4b411efe-883d-4157-b77a-daa2a982a1e2)
    - VIII
+
      ![8](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/73e6ff2f-6143-4755-85b7-9431e4086bc3)
    - IX
+
      ![9](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/81153471-1db6-4862-b854-a52a1e2d3165)
    - X
+
      ![10](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/b411d253-7923-4c65-a779-ef023d627b67)
 
 ## TREE 
