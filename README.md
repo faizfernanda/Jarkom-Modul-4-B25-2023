@@ -68,26 +68,366 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
 
 ## Berikut ini cara melakukan routing pada gns
 - Pertama melakukan configurasi pada setiap node dengan ip yang kita hasilkan pada tabel di atas,
-  seperti di bawah ini pada node **Aura**
-  ```
-    auto eth0
-    iface eth0 inet dhcp
-    
-    auto eth1
-    iface eth1 inet static
-    	address 10.18.0.1
-    	netmask 255.255.255.252
-    
-    auto eth2
-    iface eth2 inet static
-    	address 10.19.0.1
-    	netmask 255.255.255.252
-    
-    auto eth3
-    iface eth3 inet static
-    	address 10.20.0.1
-    	netmask 255.255.255.252
-  ```
+  seperti di bawah ini:
+ ### Aura 
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.18.0.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.19.0.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.20.0.1
+	netmask 255.255.255.252
+
+```
+### Friren
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.0.2
+	netmask 255.255.255.252
+        gateway 10.19.0.1
+
+auto eth1
+iface eth1 inet static
+	address 10.19.128.1
+	netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+	address 10.19.192.1
+	netmask 255.255.255.252
+
+```
+### LakeKorridor
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.128.2
+	netmask 255.255.255.224
+        gateway 10.19.128.1
+```
+
+### Flamme
+```
+auto eth0
+iface eth0 inet static
+        address 10.19.192.2
+        netmask 255.255.255.252
+        gateway 10.19.192.1
+
+auto eth1
+iface eth1 inet static
+	address 10.19.240.1
+	netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+	address 10.19.248.1
+	netmask 255.255.252.0
+
+auto eth3
+iface eth3 inet static
+	address 10.19.254.1
+	netmask 255.255.255.252
+
+```
+
+### Fern
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.19.240.2
+	netmask 255.255.255.252
+	gateway 10.19.240.1
+
+auto eth1
+iface eth1 inet static
+	address 10.19.224.1
+	netmask 255.255.248.0
+
+```
+
+### LaubHils 
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.224.3
+	netmask 255.255.248.0
+        gateway 10.19.224.1
+
+```
+
+### AppetitRegion
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.224.2
+	netmask 255.255.255.0
+        gateway 10.19.224.1
+
+```
+
+### Rohr Road
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.248.2
+	netmask 255.255.252.0
+        gateway 10.19.248.1
+```
+
+### Himmel 
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.254.2
+	netmask 255.255.255.252
+	gateway 10.19.254.1
+
+auto eth1
+iface eth1 inet static
+	address 10.19.252.1
+	netmask 255.255.255.248
+```
+
+### SchwerMountains
+```
+auto eth0
+iface eth0 inet static
+	address 10.19.252.2
+	netmask 255.255.255.248
+        gateway 10.19.252.1
+
+```
+
+### Denken 
+```
+auto eth0
+iface eth0 inet static
+	address 10.18.0.2
+	netmask 255.255.255.252
+        gateway 10.18.0.1
+
+auto eth1
+iface eth1 inet static
+	address 10.16.0.1
+	netmask 255.255.255.0
+```
+
+### RoyalCapital
+```
+auto eth0
+iface eth0 inet static
+	address 10.16.0.2
+	netmask 255.255.255.0
+        gateway 10.16.0.1
+
+```
+
+### WilleRegion 
+```
+auto eth0
+iface eth0 inet static
+	address 10.16.0.3
+	netmask 255.255.255.0
+        gateway 10.16.0.1
+```
+### Eisen 
+```
+auto eth0
+iface eth0 inet static
+	address 10.20.0.2
+	netmask 255.255.255.252
+        gateway 10.20.0.1
+
+auto eth1
+iface eth1 inet static
+	address 10.23.192.1
+	netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+	address 10.22.0.1
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.23.128.1
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 10.23.224.1
+	netmask 255.255.255.252
+```
+
+### Ritcher
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.192.3
+	netmask 255.255.255.248
+        gateway 10.23.192.1
+```
+
+### Revolte 
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.192.2
+	netmask 255.255.255.248
+        gateway 10.23.192.1
+```
+
+### Stark
+```
+auto eth0
+iface eth0 inet static
+	address 10.22.0.2
+	netmask 255.255.255.252
+        gateway 10.22.0.1
+```
+
+### Lugner 
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.128.2
+	netmask 255.255.255.252
+        gateway 10.23.128.1
+
+
+auto eth1
+iface eth1 inet static
+	address 10.23.4.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 10.23.0.1
+	netmask 255.255.255.0
+```
+
+### TurkRegion
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.23.4.2
+	netmask 255.255.255.0
+	gateway 10.23.4.1
+```
+
+### GrobeForest
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.23.0.2
+	netmask 255.255.255.0
+	gateway 10.23.0.1
+```
+
+### Linie 
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.224.2
+	netmask 255.255.255.252
+        gateway 10.23.224.1
+
+auto eth1
+iface eth1 inet static
+	address 10.23.240.1
+	netmask 255.255.254.0
+
+auto eth2
+iface eth2 inet static
+	address 10.23.254.1
+	netmask 255.255.255.252
+```
+
+### GranzChannel
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.240.2
+	netmask 255.255.254.0
+        gateway 10.23.240.1
+```
+
+### Lawine 
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.23.254.2
+	netmask 255.255.255.252
+	gateway 10.23.254.1
+
+
+
+auto eth1
+iface eth1 inet static
+	address 10.23.252.1
+	netmask 255.255.255.192
+```
+
+### BredtRegion 
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.23.252.2
+	netmask 255.255.255.192
+	gateway 10.23.252.1
+```
+
+### Heiter 
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.252.3
+	netmask 255.255.255.252
+        gateway 10.23.252.1
+
+auto eth1
+iface eth1 inet static
+	address 10.23.248.1
+	netmask 255.255.252.0
+```
+
+### Sein 
+```
+auto eth0
+iface eth0 inet static
+	address 10.23.248.2
+	netmask 255.255.252.0
+	gateway 10.23.248.1
+```
+
+### RiegelCanyon
+```
+
+auto eth0
+iface eth0 inet static
+	address 10.23.248.3
+	netmask 255.255.252.0
+	gateway 10.23.248.1
+```
+
 - Selanjut nya melakukan perintah ```route add -net <NID subnet> netmask <netmask> gw <IP gateway>``` sesuai dengan yang ada di modul 4
   berikut ini untuk masing masing node
   - ### Aura
