@@ -593,6 +593,23 @@ iface eth0 inet static
 
 Sebagai contoh, jika kita memiliki blok alamat IP 192.168.1.0/24, VLSM memungkinkan kita untuk membuat subnet dengan panjang masker yang bervariasi, seperti 192.168.1.0/26 untuk sebuah subnet yang memerlukan 62 host, dan 192.168.1.64/28 untuk sebuah subnet yang hanya memerlukan 14 host. Dengan menggunakan VLSM, jaringan dapat dirancang dengan lebih fleksibel, sesuai dengan kebutuhan unik masing-masing area atau departemen, sambil tetap memaksimalkan efisiensi pemanfaatan alamat IP.
 
+## Pembagian Subnet
+- Topologi Pembagian Subnet
+ ![Screenshot 2023-12-02 113303](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/744e503a-bf8e-4f95-a838-64efe47a7c54)
+
+- Pembagian Rute VLSM
+  
+  ![image](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/88433109/ebe33996-2c18-4954-a086-756cc479baae)
+
+- Pembagian IP
+ ![image](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/88433109/202567a4-2e78-48d5-a74c-9b53602ba1d1)
+
+## Tree
+ ![WhatsApp Image 2023-12-03 at 00 07 08_7f7a9a5c](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/88433109/8da87d31-278f-4eee-b118-055e416e70dc)
+
+## Video Tutuorial
+
+
 
 
 
