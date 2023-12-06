@@ -607,8 +607,8 @@ Sebagai contoh, jika kita memiliki blok alamat IP 192.168.1.0/24, VLSM memungkin
 ## Tree
  ![WhatsApp Image 2023-12-03 at 00 07 08_7f7a9a5c](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/88433109/8da87d31-278f-4eee-b118-055e416e70dc)
 
-## Video Tutuorial
-
+## Video Tutorial
+[![Video](https://img.youtube.com/vi/m6aubpmNZM4/maxresdefault.jpg)](https://youtu.be/m6aubpmNZM4)
 
 
 
