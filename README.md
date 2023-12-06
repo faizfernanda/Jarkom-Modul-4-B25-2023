@@ -9,13 +9,10 @@
 
 Disini kami menggunakan perhitungan subnetting dengan cara ```CIDR```  pada ```GNS3``` sedangkan untuk ```VLSM``` kami lakukan pada ```GNS3```
 
+# CIDR
+
 ## Topologi GNS CIDR 
 ![Topologi gns](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/438c03da-9bd2-483d-b773-fe6d90df959f)
-
-## Topologi PKT VLSM
-
-
-## CIDR 
 
 **CIDR (Classless Inter-Domain Routing)** merupakan metode pengelolaan dan routing jaringan yang mengubah cara kita melakukan subnetting dan mengatasi sistem pengalamatan berbasis kelas secara tradisional. CIDR memungkinkan alokasi blok alamat IP yang lebih fleksibel dengan menggunakan notasi seperti 192.168.1.0/24. Ini memungkinkan penggunaan alamat IP yang efisien dengan mengelola subnet yang lebih kecil dan memfasilitasi penggabungan alamat IP untuk mengurangi jumlah entri dalam tabel routing.
 
@@ -63,7 +60,7 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
 
      ![10](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/b411d253-7923-4c65-a779-ef023d627b67)
 
-## TREE 
+## Tree
 ![Screenshot 2023-12-02 120421](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/101172294/fa120417-c80d-4970-8bfd-1d0c715c71b9)
 
 ## Pembagian IP akhir 
@@ -246,4 +243,16 @@ Secara sederhana, **CIDR** memberikan administrator kemampuan untuk menggabungka
     ```
 ## Vidio Tutorial
 [![Video](https://img.youtube.com/vi/zlpIDt5hTIg/maxresdefault.jpg)](https://youtu.be/zlpIDt5hTIg)
+
+# VLSM
+
+## Topologi CPT VLSM 
+![topo](https://github.com/faizfernanda/Jarkom-Modul-4-B25-2023/assets/88433109/6b1a0c8c-5107-47ce-8d3a-8fc10ad146e1)
+
+**VLSM (Variable Length Subnet Masking)** adalah suatu teknik subnetting yang memungkinkan administrator jaringan untuk mengalokasikan alamat IP secara lebih efisien dan fleksibel. Dalam VLSM, setiap subnet dapat memiliki panjang subnet mask yang berbeda, memungkinkan penggunaan bit subnet yang optimal untuk memenuhi kebutuhan spesifik setiap subnet. Ini memberikan administrator kemampuan untuk mengalokasikan jumlah alamat IP yang sesuai dengan jumlah host yang dibutuhkan di setiap subnet. Dengan kata lain, VLSM memungkinkan pembagian alamat IP berbasis kebutuhan nyata, meminimalkan pemborosan alamat IP dan memberikan efisiensi yang lebih besar dalam penggunaan sumber daya jaringan. 
+
+Sebagai contoh, jika kita memiliki blok alamat IP 192.168.1.0/24, VLSM memungkinkan kita untuk membuat subnet dengan panjang masker yang bervariasi, seperti 192.168.1.0/26 untuk sebuah subnet yang memerlukan 62 host, dan 192.168.1.64/28 untuk sebuah subnet yang hanya memerlukan 14 host. Dengan menggunakan VLSM, jaringan dapat dirancang dengan lebih fleksibel, sesuai dengan kebutuhan unik masing-masing area atau departemen, sambil tetap memaksimalkan efisiensi pemanfaatan alamat IP.
+
+
+
 
