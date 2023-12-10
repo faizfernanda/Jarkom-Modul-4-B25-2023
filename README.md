@@ -7,7 +7,7 @@
 | 2| Tigo S Yoga | 5025211125 |
 
 
-Disini kami menggunakan perhitungan subnetting dengan cara ```CIDR```  pada ```GNS3``` sedangkan untuk ```VLSM``` kami lakukan pada ```GNS3```
+Disini kami menggunakan perhitungan subnetting dengan cara ```CIDR```  pada ```GNS3``` sedangkan untuk ```VLSM``` kami lakukan pada ```PKT```
 
 ## Prefix IP
 Kelompok kami memiliki Prefix IP `10.21`, namun pada metode CIDR, kami menggunakan Prefix IP `10.16` karena max length pada pengelompokan subnet CIDR yaitu `/13` dan tidak mencakup IP `10.21`.
